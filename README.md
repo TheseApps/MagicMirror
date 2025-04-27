@@ -29,6 +29,25 @@ For the full documentation including **[installation instructions](https://docs.
 - Blog: [https://michaelteeuw.nl/tagged/magicmirror](https://michaelteeuw.nl/tagged/magicmirror)
 - Donations: [https://magicmirror.builders/#donate](https://magicmirror.builders/#donate)
 
+
+
+To start MagicMirror with the developer console open (which is helpful for debugging), use this command in your terminal from the C:\git\MagicMirror directory:
+```
+npm run start:windows:dev
+```
+
+If you just want to start it normally without the console automatically opening, use:
+```
+npm run start:windows
+```
+
+electron starts, but also:
+http://localhost:8080/
+and
+http://localhost:8080/api/brightness/50
+
+
+
 ## Contributing Guidelines
 
 Contributions of all kinds are welcome, not only in the form of code but also with regards to

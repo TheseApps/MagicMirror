@@ -54,7 +54,7 @@ Module.register("calendar", {
 			"street ": ""
 		},
 		broadcastEvents: true,
-		excludedEvents: [],
+		excludedEvents: ["Juneteenth"],
 		sliceMultiDayEvents: false,
 		broadcastPastEvents: false,
 		nextDaysRelative: false,
@@ -155,7 +155,12 @@ Module.register("calendar", {
 			 * tell helper to start a fetcher for this calendar
 			 * fetcher till cycle
 			 */
+
 			this.addCalendar(calendar.url, calendar.auth, calendarConfig);
+
+
+
+
 		});
 
 		// for backward compatibility titleReplace

@@ -16,7 +16,7 @@ const defaults = {
 	language: "en",
 	logLevel: ["INFO", "LOG", "WARN", "ERROR"],
 	timeFormat: 24,
-	units: "metric",
+	units: "imperial",
 	zoom: 1,
 	customCss: "css/custom.css",
 	foreignModulesDir: "modules",
